@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.font-sans{
+    font-family: "Work Sans", sans-serif;
+}
+.font-play{
+    font-family: "Playfair Display", serif;
+}
+.green-hover:hover{
+    background-color: transparent;
+    border: 1px solid #23BE0A;
+    color: #23BE0A;
+}
+.teal-hover:hover{
+    background-color: transparent;
+    border: 1px solid #59C6D2;
+    color: #59C6D2;
+}
